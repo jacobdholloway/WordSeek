@@ -10,7 +10,6 @@ import SwiftUI
 @main
 struct WordSeekApp: App {
     
-    
     var body: some Scene {
         WindowGroup {
             // Pass the generated grid to ContentView

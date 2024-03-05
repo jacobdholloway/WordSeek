@@ -10,7 +10,6 @@ import Foundation
 struct WordList {
     let category: String
     let words: [String]
-    
 }
 
 let wordLists = [

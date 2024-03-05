@@ -53,7 +53,6 @@ class WordGridGenerator {
         case downLeft
         case downRight
         
-
         func getMovingSteps() -> MovingStep {
             switch self {
             case .up:

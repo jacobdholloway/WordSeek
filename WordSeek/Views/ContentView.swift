@@ -8,8 +8,6 @@ struct ContentView: View {
  
    
     
-    
-    
     @State private var selectedList: WordList = WordList(category: "", words: [])
     
 //    let gridGenerator = WordGridGenerator(words: Array(selectedList), row: 15, column: 15)

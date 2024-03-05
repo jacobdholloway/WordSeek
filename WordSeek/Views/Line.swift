@@ -14,7 +14,7 @@ struct Position {
     
 }
 
-// Define the line based on start and end positions
+
 struct Line {
     var startPos: Position
     var endPos: Position

@@ -17,7 +17,6 @@ struct WordView: View {
             .foregroundColor(word.isSelected ? .white : .black)
             .background(word.isSelected ? Color.blue : Color.clear)
             .cornerRadius(5)
-        
     }
 }
 

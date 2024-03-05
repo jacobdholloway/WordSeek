@@ -22,7 +22,6 @@ struct NewGridView: View {
                     .font(.headline)// Set the font to headline for better visibility
                     .padding()
                       
-                
 
                 ScrollView {
                     LazyVGrid(columns: columns, spacing: 5) {
