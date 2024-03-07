@@ -16,6 +16,13 @@ fileprivate class CharacterRandomizer {
     }
 }
 
+// Define the position in a grid
+struct Position {
+    var row: Int
+    var col: Int
+    
+}
+
 // Alias for a 2d-array
 // with a helper function to fill out placeholders with random chars.
 fileprivate extension Grid {

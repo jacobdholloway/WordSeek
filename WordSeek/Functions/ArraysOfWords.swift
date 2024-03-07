@@ -2,6 +2,8 @@
 //  ArraysOfWords.swift
 //  WordSeek
 //
+//  This file contains the words that can be used for wordsearches.
+//  Each has its own category that will also get displayed when the list is generated.
 //  Created by Jacob Holloway on 3/4/24.
 //
 
@@ -13,17 +15,17 @@ struct WordList {
 }
 
 let wordLists = [
-    WordList(category: "Nerd Words", words: nerdWords),
-    WordList(category: "Colors", words: colorWords),
-    WordList(category: "Vehicles", words: vehicles),
-    WordList(category: "Emotions", words: emotions),
-    WordList(category: "Animals", words: animalWords),
-    WordList(category: "Fruits", words: fruitWords),
-    WordList(category: "Musical Instruments", words: musicalInstruments),
-    WordList(category: "Occupations", words: occupations)
+    WordList(category: "Nerd Words", words: nerdList),
+    WordList(category: "Colors", words: colorList),
+    WordList(category: "Vehicles", words: vehiclesList),
+    WordList(category: "Emotions", words: emotionsList),
+    WordList(category: "Animals", words: animalList),
+    WordList(category: "Fruits", words: fruitList),
+    WordList(category: "Musical Instruments", words: instrumentsList),
+    WordList(category: "Occupations", words: occupationList)
 ]
 
-let nerdWords = [
+let nerdList = [
     "SWIFT", "GRID", "WORDS", "RANDOM", "FUNCTION", "VARIABLE", "CONSTANT",
     "SEQUENCE", "ITERATOR", "PROTOCOL", "DELEGATE", "CLOSURE", "ALGORITHM",
     "COMPILE", "DEBUG", "EXECUTE", "SYNTAX", "PARAMETER", "ARGUMENT",
@@ -41,7 +43,7 @@ let nerdWords = [
     "TEMPLATE", "WIDGET", "COMPONENT", "ELEMENT", "TAG",
     "ATTRIBUTE", "PROPERTY", "METHOD", "EVENT", "LISTENER"
 ]
-let colorWords = [
+let colorList = [
     "Red", "Blue", "Green", "Yellow", "Purple", "Orange",
     "Magenta", "Cyan", "Maroon", "Olive", "Navy", "Teal",
     "Lime", "Aqua", "Fuchsia", "Silver", "Gray", "Black",
@@ -52,7 +54,7 @@ let colorWords = [
     "Plum", "Orchid", "Amber", "Cerise", "Rust", "Chocolate",
     "Charcoal", "Apricot", "Periwinkle", "Ochre", "Emerald", "Sapphire"
 ]
-let animalWords = [
+let animalList = [
     "Dog", "Cat", "Elephant", "Lion", "Tiger", "Giraffe",
     "Zebra", "Hippo", "Rhinoceros", "Bear", "Wolf", "Fox",
     "Rabbit", "Deer", "Monkey", "Kangaroo", "Panda", "Koala",
@@ -68,25 +70,24 @@ let animalWords = [
     "Xenopus", "Yellowjacket", "Zorilla"
 ]
 
-let fruitWords = [
+let fruitList = [
     "Apple", "Banana", "Cherry", "Date", "Elderberry", "Fig",
-    "Grape", "Honeydew", "Ivory Melon", "Jackfruit", "Kiwi", "Lemon",
+    "Grape", "Honeydew", "Jackfruit", "Kiwi", "Lemon",
     "Mango", "Nectarine", "Orange", "Papaya", "Quince", "Raspberry",
     "Strawberry", "Tomato", "Ugli Fruit", "Vine Peach", "Watermelon", "Xigua",
-    "Yellow Watermelon", "Zucchini", "Apricot", "Blackberry", "Cantaloupe",
+    "Zucchini", "Apricot", "Blackberry", "Cantaloupe",
     "Dragon Fruit", "Eggfruit", "Feijoa", "Guava", "Huckleberry",
-    "Indian Fig", "Jujube", "Kumquat", "Lychee", "Mulberry", "Navel Orange",
-    "Olive", "Persimmon", "Queen Anne Cherry", "Rambutan", "Star Fruit",
-    "Tangerine", "Uva", "Valencia Orange", "White Currant", "Ximenia",
+    "Indian Fig", "Jujube", "Kumquat", "Lychee", "Mulberry",
+    "Olive", "Persimmon", "Rambutan",
+    "Tangerine", "Uva",  "Ximenia",
     "Yuzu", "Zapote", "Acerola", "Bilberry", "Currant", "Dewberry",
-    "Elderberry", "Finger Lime", "Grapefruit", "Honeyberry", "Ita Palm",
-    "Jaboticaba", "Kiwano", "Lingonberry", "Mandarin", "Nashi Pear",
-    "Oval Kumquat", "Pitaya", "Quararibea Cordata", "Red Currant", "Soursop",
-    "Tangelo", "Umbu", "Velvet Apple", "Winter Melon", "Xiangjiao",
-    "Yellow Passionfruit", "Zalzalak"
+    "Elderberry", "Grapefruit", "Honeyberry",
+    "Jaboticaba", "Kiwano", "Lingonberry", "Mandarin",
+     "Pitaya","Soursop",
+    "Tangelo", "Umbu", "Xiangjiao","Zalzalak"
 ]
 
-let vehicles = [
+let vehiclesList = [
     "Car", "Truck", "Motorcycle", "Bicycle", "Airplane", "Boat",
     "Scooter", "Helicopter", "Submarine", "Train", "Tram", "Van",
     "Bus", "RV", "ATV", "Snowmobile", "Yacht", "Sailboat", "Tank",
@@ -97,7 +98,7 @@ let vehicles = [
 ]
 
 
-let emotions = [
+let emotionsList = [
     "Happy", "Sad", "Angry", "Excited", "Nervous", "Relieved",
     "Anxious", "Joyful", "Depressed", "Grateful", "Jealous", "Curious",
     "Hopeful", "Scared", "Confident", "Ashamed", "Bored", "Surprised",
@@ -110,7 +111,7 @@ let emotions = [
     "Vulnerable", "Wary", "Yearning"
 ]
 
-let occupations = [
+let occupationList = [
     "Accountant", "Actor", "Architect", "Astronaut", "Athlete", "Author",
     "Baker", "Barber", "Bartender", "Biologist", "Blacksmith", "Broker",
     "Butcher", "Carpenter", "Chef", "Chemist", "Clerk", "Coach",
@@ -129,7 +130,7 @@ let occupations = [
 ]
 
 
-let musicalInstruments = [
+let instrumentsList = [
     "Accordion", "Banjo", "Cello", "Clarinet", "Drums", "Flute",
     "Guitar", "Harmonica", "Harp", "Keyboard", "Lute", "Mandolin",
     "Maracas", "Oboe", "Organ", "Piano", "Recorder", "Saxophone",
